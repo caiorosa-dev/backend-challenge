@@ -30,4 +30,8 @@ export class PlacesRepository {
   findById(id: number) {
     return this.prismaService.place.findUnique({ where: { id } });
   }
+
+  delete(id: number) {
+    return this.prismaService.place.delete({ where: { id } });
+  }
 }
