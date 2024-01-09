@@ -6,8 +6,8 @@ import { type Prisma } from '@prisma/client';
 export class PlacesRepository {
   constructor(private readonly prismaService: PrismaService) {}
 
-  create(createDto: Prisma.PlaceCreateArgs) {
-    return this.prismaService.place.create(createDto);
+  create(createDto: Prisma.PlaceCreateInput) {
+    return this.prismaService.place.create({ data: createDto });
   }
 
   update(id: number, updateDto: Prisma.PlaceUpdateInput) {
