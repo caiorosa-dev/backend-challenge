@@ -16,6 +16,9 @@ Este é um repositório feito especificadamente para um projeto de teste técnic
   # Clone o projeto
   git clone https://github.com/caiorosa-dev/backend-challenge
 
+  # Entre no diretório do projeto
+  cd backend-challenge
+
   # Utilize o Docker Compose
   docker-compose up
 ```
