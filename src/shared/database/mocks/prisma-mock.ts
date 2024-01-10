@@ -1,3 +1,5 @@
+const now = new Date();
+
 export const mockedValues = {
   users: [
     {
@@ -25,24 +27,24 @@ export const mockedValues = {
       name: 'Dasia Track',
       city: 'San Marcos',
       state: 'Nevada',
-      createdAt: new Date(),
-      updatedAt: new Date(),
+      createdAt: now,
+      updatedAt: now,
     },
     {
       id: 2,
       name: 'Haag Coves',
       city: 'Denton',
       state: 'Illinois',
-      createdAt: new Date(),
-      updatedAt: new Date(),
+      createdAt: now,
+      updatedAt: now,
     },
     {
       id: 3,
       name: "D'Amore Plaza",
       city: 'Wellington',
       state: 'New York',
-      createdAt: new Date(),
-      updatedAt: new Date(),
+      createdAt: now,
+      updatedAt: now,
     },
   ],
 };

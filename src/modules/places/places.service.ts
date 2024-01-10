@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreatePlaceDto } from './dto/create-place.dto';
 import { UpdatePlaceDto } from './dto/update-place.dto';
-import { PlacesRepository } from 'src/shared/database/repositories/places.repository';
+import { PlacesRepository } from '../../shared/database/repositories/places.repository';
 
 @Injectable()
 export class PlacesService {
