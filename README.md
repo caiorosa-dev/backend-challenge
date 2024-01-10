@@ -45,6 +45,14 @@ Este é um repositório feito especificadamente para um projeto de teste técnic
   npm run start:dev
 ```
 
+## Rodando os testes
+
+Para rodar os testes, rode o seguinte comando
+
+```bash
+  npm run test
+```
+
 ## Documentação da API
 
 ### Autenticação
