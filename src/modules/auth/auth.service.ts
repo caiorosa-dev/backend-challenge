@@ -31,7 +31,7 @@ export class AuthService {
     return { accessToken };
   }
 
-  private async generateAccessToken(userId: number) {
+  public async generateAccessToken(userId: number) {
     return await this.jwtService.signAsync({ sub: userId });
   }
 }
