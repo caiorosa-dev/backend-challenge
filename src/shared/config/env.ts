@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { plainToInstance } from 'class-transformer';
 import { IsNotEmpty, IsString, validateSync } from 'class-validator';
 
-class Env {
+export class Env {
   @IsString()
   @IsNotEmpty()
   jwtSecret: string;
